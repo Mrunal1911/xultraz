@@ -31,7 +31,7 @@ async def amireallyalive(awake):
    if PHOTO:
      tag = borg.uid
 #     uptm = await legend.get_readable_time((time.time() - StartTime))
-     ALIVE_MESSAGE= f"**✧✧ {BOT} IS UP AND RUNNING SUCCESSFULLY ✧✧**"
+     ALIVE_MESSAGE= f"**✧✧ ✙ 𝐒𝐢𝐧𝐗 ✙ IS UP AND RUNNING SUCCESSFULLY ✧✧**"
      ALIVE_MESSAGE += "\n\n"
      ALIVE_MESSAGE += "**✥✥ 𝚂𝚈𝚂𝚃𝙴𝙼 𝚂𝚃𝙰𝚃𝚄𝚂 ✥✥**\n\n"
      ALIVE_MESSAGE += "✧ 𝚃𝙴𝙻𝙴𝚃𝙷𝙾𝙽 𝚅𝙴𝚁𝚂𝙸𝙾𝙽 : `1.19.5`\n\n"
@@ -46,7 +46,7 @@ async def amireallyalive(awake):
      PHOTO = "https://telegra.ph/file/7a2e0dca3bacda9335947.jpg"
      tag = borg.uid
 #     uptm = await legend.get_readable_time((time.time() - StartTime))
-     ALIVE_MESSAGE= f"**✧✧ {BOT} IS UP AND RUNNING SUCCESSFULLY ✧✧**"
+     ALIVE_MESSAGE= f"**✧✧ ✙ 𝐒𝐢𝐧𝐗 ✙ IS UP AND RUNNING SUCCESSFULLY ✧✧**"
      ALIVE_MESSAGE += "\n\n"
      ALIVE_MESSAGE += "**✥✥ 𝚂𝚈𝚂𝚃𝙴𝙼 𝚂𝚃𝙰𝚃𝚄𝚂 ✥✥**\n\n"
      ALIVE_MESSAGE += "✧ 𝚃𝙴𝙻𝙴𝚃𝙷𝙾𝙽 𝚅𝙴𝚁𝚂𝙸𝙾𝙽 : `1.19.5`\n\n"
