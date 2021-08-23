@@ -86,7 +86,7 @@ def register(**args):
                     date = strftime("%Y-%m-%d %H:%M:%S", gmtime())
 
                     text = "**USERBOT ERROR REPORT**\n"
-                    link = "[ULTRA Official Chat](https://t.me/ULTRAXOT)"
+                    link = "[SINX Official Chat](https://t.me/sinx_support)"
                     text += "If you want to, you can report it"
                     text += f"- just forward this message to {link}.\n"
                     text += "Nothing is logged except the fact of error and date\n"
@@ -129,8 +129,8 @@ def register(**args):
 
                     if LOGSPAMMER:
                         await check.client.respond(
-                            "`Sorry, my ULTRA has crashed😔, check logs for more info.\
-                        \nThe error logs are stored in the ULTRA's log chat.`"
+                            "`Sorry, my SINX has crashed😔, check logs for more info.\
+                        \nThe error logs are stored in the SINX's log chat.`"
                         )
 
                     await check.client.send_file(send_to,
