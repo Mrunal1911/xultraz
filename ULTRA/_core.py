@@ -9,8 +9,8 @@ from ULTRA.utils import admin_cmd, load_module, remove_plugin, sudo_cmd
 from ULTRA.utils import edit_or_reply as eor
 
 DELETE_TIMEOUT = 3
-thumb_image_path = "./Resources/UltraX.jpg"
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "ULTRA X"
+thumb_image_path = "./Resources/sinx.jpg"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "✙ 𝐒𝐢𝐧𝐗 ✙"
 
 
 @bot.on(admin_cmd(pattern=r"send (?P<shortname>\w+)", outgoing=True))
@@ -89,10 +89,10 @@ async def unload(event):
     shortname = event.pattern_match["shortname"]
     try:
         remove_plugin(shortname)
-        qwe = await eor(event, f"UltraX Has Successfully unloaded {shortname}")
+        qwe = await eor(event, f" ✙ 𝐒𝐢𝐧𝐗 ✙ Has Successfully unloaded {shortname}")
     except Exception as e:
         await qwe.edit(
-            "UltraX has Successfully unloaded {shortname}\n{}".format(shortname, str(e))
+            " ✙ 𝐒𝐢𝐧𝐗 ✙ has Successfully unloaded {shortname}\n{}".format(shortname, str(e))
         )
 
 
@@ -111,5 +111,5 @@ async def load(event):
         qwe = await eor(event, f"Successfully loaded {shortname}")
     except Exception as e:
         await qwe.edit(
-            f"ULTRA X could not load {shortname} because of the following error.\n{str(e)}"
+            f" ✙ 𝐒𝐢𝐧𝐗 ✙  could not load {shortname} because of the following error.\n{str(e)}"
         )
