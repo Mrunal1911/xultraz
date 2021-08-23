@@ -1,21 +1,18 @@
-# Copyright (C) 2021 By Team UltraX 
+# Copyright (C) 2021 By Team SINX
 
 # ~ LegendX
 # ~ ProBoyX
 # ~ MadBoy
 # ~ Alain
+# ~ Mrunal
 
-# Reserved, Copyrighted by ULTRA-X, only for ULTRA-X UserBot, If found in any other repo, be ready for DMCA
-# Reserved, Copyrighted by ULTRA-X, only for ULTRA-X UserBot, If found in any other repo, be ready for DMCA
-# Reserved, Copyrighted by ULTRA-X, only for ULTRA-X UserBot, If found in any other repo, be ready for DMCA
+
 
 # Kang with Credits, else gey
 # I knew u will kang and remove credits, duffer!!
 
-# back click kar madharchod 
 
-# Last Warn - Undo the removed part else be ready for DMCA by LegendX
-# Mobile me back option he uspe click karde madhachod kang kiya to dekh
+
 
 
 import os, re
@@ -36,7 +33,7 @@ else:
 WARN = (
   f'''
 **{BOT_MAD}**
-__Hᴇʏ ᴛʜᴇʀᴇ!! I'ᴍ__ **υℓтяα χ** __ᴀɴᴅ I'ᴍ ʜᴇʀᴇ ᴛᴏ Pʀᴏᴛᴇᴄᴛ **{ULTRA_USER}**..\nDᴏɴ'ᴛ Uɴᴅᴇʀ Esᴛɪᴍᴀᴛᴇ ᴍᴇ 😈😈__**
+__Hᴇʏ ᴛʜᴇʀᴇ!! I'ᴍ__ **✙ 𝐒𝐢𝐧𝐗 ✙** __ᴀɴᴅ I'ᴍ ʜᴇʀᴇ ᴛᴏ Pʀᴏᴛᴇᴄᴛ **{ULTRA_USER}**..\nDᴏɴ'ᴛ Uɴᴅᴇʀ Esᴛɪᴍᴀᴛᴇ ᴍᴇ 😈😈__**
 __Mʏ Mᴀsᴛᴇʀ **{ULTRA_USER}**  ɪs ʙᴜsʏ ʀɪɢʜᴛ ɴᴏᴡ !!__ \n"
 Mʏ Mᴀsᴛᴇʀ ʜᴀs ᴀssɪɢɴᴇᴅ ᴍᴇ ᴛʜᴇ ᴅᴜᴛʏ ᴛᴏ ᴋᴇᴇᴘ ᴀ ᴄʜᴇᴄᴋ ᴏɴ ʜɪs PM, Aɴᴅ ɪ'ʟʟ ᴅᴏ ɪᴛ ғᴀɪᴛʜғᴜʟʟʏ..Sᴏ ʏᴏᴜ'ʀᴇ ɴᴏᴛ ᴀʟʟᴏᴡᴇᴅ ᴛᴏ ᴅɪsᴛᴜʀʙ ʜɪᴍ..
 **Iғ ᴜ Sᴘᴀᴍ, ᴏʀ ᴛʀɪᴇᴅ ᴀɴʏᴛʜɪɴɢ ғᴜɴɴʏ, I'ᴠᴇ ғᴜʟʟ ᴘᴇʀᴍɪssɪᴏɴ ᴛᴏ Bʟᴏᴄᴋ + Rᴇᴘᴏʀᴛ ʏᴏᴜ ᴀs Sᴘᴀᴍ ɪɴ Tᴇʟᴇɢʀᴀᴍ's sᴇʀᴠᴇʀ...**
@@ -46,7 +43,7 @@ Mʏ Mᴀsᴛᴇʀ ʜᴀs ᴀssɪɢɴᴇᴅ ᴍᴇ ᴛʜᴇ ᴅᴜᴛʏ ᴛᴏ �
 
 ULTRA_BOT_PIC = os.environ.get("PMPERMIT_PIC", None)
 if ULTRA_BOT_PIC is None:
-    ULTRA_PIC = "https://telegra.ph/file/91d427a6873d44ca21c78.jpg"
+    ULTRA_PIC = "https://telegra.ph/file/7a2e0dca3bacda9335947.jpg"
 else:
     ULTRA_PIC = ULTRA_BOT_PIC
 
@@ -93,8 +90,8 @@ async def Inline_legendx(event):
 @xbot.on(events.callbackquery.CallbackQuery(data=re.compile(b'noobda')))
 async def noobda (event):
   global back
-  Piro = [[Button.url("Sᴜᴘᴘᴏʀᴛ", "https://t.me/UltraXchaT"), Button.url("Cʜᴀɴɴᴇʟ", "https://t.me/UltraXoT")]]
-  Piro += [[Button.url("Rᴇᴘᴏ", "https://github.com/ULTRA-OP/ULTRA-X")]]
+  Piro = [[Button.url("Sᴜᴘᴘᴏʀᴛ", "https://t.me/sinx_support"), Button.url("Cʜᴀɴɴᴇʟ", "https://t.me/sinx_updates")]]
+  Piro += [[Button.url("Rᴇᴘᴏ", "https://github.com/Mrunal1911/xultraz")]]
   Piro += back
   await event.edit("**CʜᴇᴄᴋOᴜᴛ ᴛʜᴇsᴇ ʟɪɴᴋs**", buttons=Piro)
 @xbot.on(events.callbackquery.CallbackQuery(data=re.compile(b'pm_back')))
@@ -118,21 +115,3 @@ async def _(event):
 
   
 
-# Copyright (C) 2021 By Team UltraX 
-
-# ~ LegendX
-# ~ ProBoyX
-# ~ MadBoy
-# ~ Alain
-
-# Reserved, Copyrighted by ULTRA-X, only for ULTRA-X UserBot, If found in any other repo, be ready for DMCA
-# Reserved, Copyrighted by ULTRA-X, only for ULTRA-X UserBot, If found in any other repo, be ready for DMCA
-# Reserved, Copyrighted by ULTRA-X, only for ULTRA-X UserBot, If found in any other repo, be ready for DMCA
-
-# Kang with Credits, else gey
-# I knew u will kang and remove credits, duffer!!
-
-# back click kar madharchod 
-
-# Last Warn - Undo the removed part else be ready for DMCA by LegendX
-# Mobile me back option he uspe click karde madhachod kang kiya to dekh
