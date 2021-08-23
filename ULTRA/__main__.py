@@ -26,7 +26,7 @@ except:
   os.system("pip install LEGENDX==0.0.21")
   from LEGENDX import id, ID, devs
 finally:
-  print ("ULTRA X IS STARTING WITH TELETHON") 
+  print ("✙ 𝐒𝐢𝐧𝐗 ✙ IS STARTING WITH TELETHON") 
 from ULTRAX import xbot
 from ULTRA import bot, CMD_HELP
 from sys import argv
@@ -166,8 +166,8 @@ async def legend():
 
 **➥ Mᴀsᴛᴇʀ** `➪` **@{legend.username}**
 **➥ Assɪsᴛᴀɴᴛ** `➪` **@{pro.username}**
-**➥ Sᴜᴘᴘᴏʀᴛ** `➪` **@UltraXchaT**
-**➥ Cʜᴀɴɴᴇʟ** `➪` **@UltraX_SupporT**
+**➥ Sᴜᴘᴘᴏʀᴛ** `➪` **@sinx_support**
+**➥ Cʜᴀɴɴᴇʟ** `➪` **@sinx_updates**
 
 **Cʜᴇᴄᴋ ᴍᴏɪ Pɪɴɢ ᴛɪᴍᴇ ʙʏ** `.ping` **[Fᴏʀ UsᴇʀBᴏᴛ] or** `/ping` **[Fᴏʀ Assɪsᴛᴀɴᴛ]**
 """
